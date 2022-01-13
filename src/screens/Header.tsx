@@ -24,8 +24,8 @@ export default function Header(props: HeaderProps) {
         {/* <Button size="small">Subscribe</Button> */}
         <Typography
           component="h2"
-          variant="h5"
-          color="inherit"
+          variant="h2"
+          color="white"
           align="center"
           noWrap
           sx={{ flex: 1 }}

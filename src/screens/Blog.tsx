@@ -93,6 +93,11 @@ const theme = createTheme({
   typography: {
     fontFamily: "Questrial",
   },
+  palette: {
+    background: {
+      default: "#082c6c",
+    },
+  },
 });
 
 export default function Blog() {
