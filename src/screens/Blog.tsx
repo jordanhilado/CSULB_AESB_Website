@@ -89,7 +89,11 @@ const sidebar = {
   ],
 };
 
-const theme = createTheme();
+const theme = createTheme({
+  typography: {
+    fontFamily: "Questrial",
+  },
+});
 
 export default function Blog() {
   return (
