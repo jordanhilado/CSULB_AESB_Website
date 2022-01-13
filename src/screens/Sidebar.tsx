@@ -14,6 +14,7 @@ interface SidebarProps {
   social: ReadonlyArray<{
     icon: React.ElementType;
     name: string;
+    socialURL?: string;
   }>;
   title: string;
 }
@@ -49,7 +50,7 @@ export default function Sidebar(props: SidebarProps) {
         <Link
           display="block"
           variant="body1"
-          href="#"
+          href={network.socialURL}
           key={network.name}
           sx={{ mb: 0.5 }}
         >

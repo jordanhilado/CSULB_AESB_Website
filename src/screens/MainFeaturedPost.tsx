@@ -29,6 +29,7 @@ export default function MainFeaturedPost(props: MainFeaturedPostProps) {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundImage: `url(${post.image})`,
+        borderRadius: 5,
       }}
     >
       {/* Increase the priority of the hero background image */}
@@ -47,6 +48,7 @@ export default function MainFeaturedPost(props: MainFeaturedPostProps) {
           right: 0,
           left: 0,
           backgroundColor: "rgba(0,0,0,.3)",
+          borderRadius: 5,
         }}
       />
       <Grid container>

@@ -2,9 +2,8 @@ import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Header from "./Header";
 import MainFeaturedPost from "./MainFeaturedPost";
@@ -17,23 +16,23 @@ import post2 from "./blog-post.2.md";
 import post3 from "./blog-post.3.md";
 
 const sections = [
-  { title: "Technology", url: "#" },
-  { title: "Design", url: "#" },
-  { title: "Culture", url: "#" },
-  { title: "Business", url: "#" },
-  { title: "Politics", url: "#" },
-  { title: "Opinion", url: "#" },
-  { title: "Science", url: "#" },
-  { title: "Health", url: "#" },
-  { title: "Style", url: "#" },
-  { title: "Travel", url: "#" },
+  { title: "About Us", url: "#" },
+  { title: "Clubs & Organizations", url: "#" },
+  { title: "Meetings", url: "#" },
+  { title: "Events", url: "#" },
+  { title: "Officers", url: "#" },
+  { title: "Shops", url: "#" },
+  { title: "Gallery", url: "#" },
+  { title: "Calendar", url: "#" },
+  { title: "Join AESB", url: "#" },
+  { title: "Forms", url: "#" },
 ];
 
 const mainFeaturedPost = {
-  title: "Title of a longer featured blog post",
-  description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
-  image: "https://source.unsplash.com/random",
+  title: "Associated Engineering Student Body",
+  description: "California State University, Long Beach",
+  image:
+    "https://www.csulb.edu/sites/default/files/groups/marketing-communications/zoombks/zoombackgrounds_16.jpg",
   imageText: "main image description",
   linkText: "Continue reading…",
 };
@@ -62,7 +61,7 @@ const posts = [post1, post2, post3];
 const sidebar = {
   title: "About",
   description:
-    "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
+    "Associated Engineering Student Body (AESB) is the College Council of the College of Engineering here at California State University, Long Beach. AESB is the largest Associated Student Body at CSULB which is currently associated with more than 20 organizations. AESB advises the COE Dean of its recommendations on matters concerning the general welfare of the COE students. AESB is also a liaison between the COE administration, faculty, recognized student organizations, and members of the COE student body.",
   archives: [
     { title: "March 2020", url: "#" },
     { title: "February 2020", url: "#" },
@@ -77,9 +76,16 @@ const sidebar = {
     { title: "April 1999", url: "#" },
   ],
   social: [
-    { name: "GitHub", icon: GitHubIcon },
-    { name: "Twitter", icon: TwitterIcon },
-    { name: "Facebook", icon: FacebookIcon },
+    {
+      name: "Email",
+      icon: MailOutlineIcon,
+      socialURL: "mailto:webmaster@aesb.org",
+    },
+    {
+      name: "Instagram",
+      icon: InstagramIcon,
+      socialURL: "https://www.instagram.com/csulbaesb/",
+    },
   ],
 };
 
@@ -90,7 +96,7 @@ export default function Blog() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="Blog" sections={sections} />
+        <Header title="CSULB AESB" sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>
@@ -109,10 +115,7 @@ export default function Blog() {
           </Grid>
         </main>
       </Container>
-      <Footer
-        title="Footer"
-        description="Something here to give the footer a purpose!"
-      />
+      <Footer description="Built with ❤️ in Long Beach, CA - Last updated 01/12 by Jordan H." />
     </ThemeProvider>
   );
 }
