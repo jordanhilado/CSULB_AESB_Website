@@ -23,6 +23,15 @@ const theme = createTheme({
   },
 });
 
+const CONTAINER = {
+  // backgroundColor: "green",
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+  justifyContent: "space-evenly",
+  rowGap: 40,
+};
+
 export default function Officers() {
   return (
     <ThemeProvider theme={theme}>
@@ -31,14 +40,13 @@ export default function Officers() {
         <Header title="CSULB AESB" sections={sections} />
         <main>
           <h1>Officers</h1>
-          <div>
+          <div style={CONTAINER as React.CSSProperties}>
             {officerInfo.map((officer) => {
               return (
                 <>
                   <Card sx={{ maxWidth: 345 }}>
                     <CardMedia
                       component="img"
-                      alt="green iguana"
                       height="140"
                       image={officer.image}
                     />

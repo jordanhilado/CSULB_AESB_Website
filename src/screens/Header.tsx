@@ -6,6 +6,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Button from "@mui/material/Button";
+import ButtonUnstyled from "@mui/base/ButtonUnstyled";
 
 interface HeaderProps {
   sections: ReadonlyArray<{
@@ -30,7 +31,9 @@ export default function Header(props: HeaderProps) {
           noWrap
           sx={{ flex: 1 }}
         >
-          {title}
+          <Button href="/" variant="text">
+            {title}
+          </Button>
         </Typography>
         {/* <IconButton>
           <SearchIcon />
