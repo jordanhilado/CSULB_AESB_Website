@@ -16,7 +16,7 @@ import post2 from "./blog-post.2.md";
 import post3 from "./blog-post.3.md";
 
 const sections = [
-  { title: "About Us", url: "#" },
+  { title: "About Us", url: "/about" },
   { title: "Clubs & Organizations", url: "#" },
   { title: "Meetings", url: "#" },
   { title: "Events", url: "#" },
