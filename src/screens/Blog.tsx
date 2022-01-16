@@ -14,19 +14,7 @@ import Footer from "./Footer";
 import post1 from "./blog-post.1.md";
 import post2 from "./blog-post.2.md";
 import post3 from "./blog-post.3.md";
-
-const sections = [
-  { title: "About Us", url: "/about" },
-  { title: "Clubs & Organizations", url: "#" },
-  { title: "Meetings", url: "#" },
-  { title: "Events", url: "#" },
-  { title: "Officers", url: "#" },
-  { title: "Shops", url: "#" },
-  { title: "Gallery", url: "#" },
-  { title: "Calendar", url: "#" },
-  { title: "Join AESB", url: "#" },
-  { title: "Forms", url: "#" },
-];
+import { sections } from "./Sections";
 
 const mainFeaturedPost = {
   title: "Associated Engineering Student Body",

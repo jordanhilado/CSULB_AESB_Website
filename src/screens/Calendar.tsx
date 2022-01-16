@@ -16,14 +16,14 @@ const theme = createTheme({
   },
 });
 
-export default function About() {
+export default function Calendar() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
         <main>
-          <h1>About us</h1>
+          <h1>Calendar</h1>
         </main>
       </Container>
     </ThemeProvider>
