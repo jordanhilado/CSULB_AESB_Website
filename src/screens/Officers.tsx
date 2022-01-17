@@ -10,7 +10,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import officerInfo from "../assets/officerInfo.json";
+import { officerInfo } from "../assets/officerInfo";
 
 const theme = createTheme({
   typography: {
@@ -47,7 +47,7 @@ export default function Officers() {
                   <Card sx={{ maxWidth: 345 }}>
                     <CardMedia
                       component="img"
-                      height="140"
+                      height="200"
                       image={officer.image}
                     />
                     <CardContent>
