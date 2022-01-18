@@ -44,7 +44,7 @@ export default function Officers() {
             {officerInfo.map((officer) => {
               return (
                 <>
-                  <Card sx={{ maxWidth: 345 }}>
+                  <Card sx={{ maxWidth: 345, borderRadius: 3 }}>
                     <CardMedia
                       component="img"
                       height="200"
