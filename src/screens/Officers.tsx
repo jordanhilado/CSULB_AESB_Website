@@ -11,17 +11,9 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { officerInfo } from "../assets/officerInfo";
-
-const theme = createTheme({
-  typography: {
-    fontFamily: "Questrial",
-  },
-  palette: {
-    background: {
-      default: "#082c6c",
-    },
-  },
-});
+import Footer from "./Footer";
+import { theme } from "./theme";
+import { footerInfo } from "../assets/footerInfo";
 
 const CONTAINER = {
   // backgroundColor: "green",
@@ -40,11 +32,17 @@ export default function Officers() {
         <Header title="CSULB AESB" sections={sections} />
         <main>
           <h1>Officers</h1>
+          <p>
+            Our Council is composed of two boards – Executive Board and
+            Leadership Board with Industry Committee. The council is
+            representative of engineering student body in the council members
+            from all different types of Engineering departments and class years.
+          </p>
           <div style={CONTAINER as React.CSSProperties}>
             {officerInfo.map((officer) => {
               return (
                 <>
-                  <Card sx={{ maxWidth: 345, borderRadius: 3 }}>
+                  <Card sx={{ maxHeight: 400, maxWidth: 345, borderRadius: 3 }}>
                     <CardMedia
                       component="img"
                       height="200"
@@ -52,7 +50,7 @@ export default function Officers() {
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
-                        {officer.role} {officer.name}
+                        {officer.name}, {officer.role}
                         <Typography
                           gutterBottom
                           variant="body2"
@@ -69,7 +67,12 @@ export default function Officers() {
                       <Button href={officer.email} size="small">
                         Email
                       </Button>
-                      <Button href={officer.linkedin} size="small">
+                      <Button
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={officer.linkedin}
+                        size="small"
+                      >
                         LinkedIn
                       </Button>
                     </CardActions>
@@ -80,6 +83,7 @@ export default function Officers() {
           </div>
         </main>
       </Container>
+      <Footer description={footerInfo} />
     </ThemeProvider>
   );
 }

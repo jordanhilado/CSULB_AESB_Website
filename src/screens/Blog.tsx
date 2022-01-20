@@ -15,6 +15,8 @@ import post1 from "./blog-post.1.md";
 import post2 from "./blog-post.2.md";
 import post3 from "./blog-post.3.md";
 import { sections } from "./Sections";
+import { theme } from "./theme";
+import { footerInfo } from "../assets/footerInfo";
 
 const mainFeaturedPost = {
   title: "Associated Engineering Student Body",
@@ -77,17 +79,6 @@ const sidebar = {
   ],
 };
 
-const theme = createTheme({
-  typography: {
-    fontFamily: "Questrial",
-  },
-  palette: {
-    background: {
-      default: "#082c6c",
-    },
-  },
-});
-
 export default function Blog() {
   return (
     <ThemeProvider theme={theme}>
@@ -112,7 +103,7 @@ export default function Blog() {
           </Grid>
         </main>
       </Container>
-      <Footer description="Built with ❤️ in Long Beach, CA - Last updated 01/12 by Jordan H." />
+      <Footer description={footerInfo} />
     </ThemeProvider>
   );
 }

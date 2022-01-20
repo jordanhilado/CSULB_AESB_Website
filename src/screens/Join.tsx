@@ -4,17 +4,9 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { Container } from "@mui/material";
 import Header from "./Header";
 import { sections } from "./Sections";
-
-const theme = createTheme({
-  typography: {
-    fontFamily: "Questrial",
-  },
-  palette: {
-    background: {
-      default: "#082c6c",
-    },
-  },
-});
+import Footer from "./Footer";
+import { theme } from "./theme";
+import { footerInfo } from "../assets/footerInfo";
 
 export default function Join() {
   return (
@@ -26,6 +18,7 @@ export default function Join() {
           <h1>Join AESB</h1>
         </main>
       </Container>
+      <Footer description={footerInfo} />
     </ThemeProvider>
   );
 }

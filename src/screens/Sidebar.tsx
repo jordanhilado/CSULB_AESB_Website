@@ -53,6 +53,8 @@ export default function Sidebar(props: SidebarProps) {
           href={network.socialURL}
           key={network.name}
           sx={{ mb: 0.5 }}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <Stack direction="row" spacing={1} alignItems="center">
             <network.icon />
