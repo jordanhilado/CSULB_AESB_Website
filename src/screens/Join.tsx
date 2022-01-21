@@ -16,6 +16,12 @@ export default function Join() {
         <Header title="CSULB AESB" sections={sections} />
         <main>
           <h1>Join AESB</h1>
+          <p>
+            Join an AESB committee to become more involved with the CSULB
+            engineering department and your fellow peers. Develop and enhance
+            networking skills while creating lasting friendships from home.
+            Apply now!
+          </p>
         </main>
       </Container>
       <Footer description={footerInfo} />

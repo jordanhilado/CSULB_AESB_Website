@@ -8,14 +8,15 @@ import Footer from "./Footer";
 import { theme } from "./theme";
 import { footerInfo } from "../assets/footerInfo";
 
-export default function Events() {
+export default function Contact() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
         <main>
-          <h1>Events</h1>
+          <h1>Contact</h1>
+          <p>Here's how you can contact us:</p>
         </main>
       </Container>
       <Footer description={footerInfo} />

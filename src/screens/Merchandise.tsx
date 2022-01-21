@@ -16,6 +16,10 @@ export default function Merchandise() {
         <Header title="CSULB AESB" sections={sections} />
         <main>
           <h1>Merchandise</h1>
+          <p>
+            We will be releasing new AESB merchandise this Spring 2022! Keep an
+            eye out!
+          </p>
         </main>
       </Container>
       <Footer description={footerInfo} />

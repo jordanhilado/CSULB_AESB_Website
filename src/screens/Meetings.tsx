@@ -15,7 +15,10 @@ export default function Meetings() {
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
         <main>
-          <h1>Meetings</h1>
+          <h1>Meetings and Events</h1>
+          <p>
+            Welcome to Spring 2022! Meetings and events will be announced soon!
+          </p>
         </main>
       </Container>
       <Footer description={footerInfo} />

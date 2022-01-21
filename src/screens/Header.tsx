@@ -62,6 +62,9 @@ export default function Header(props: HeaderProps) {
           //   {section.title}
           // </Link>
         ))}
+        <Button href="/contact" variant="contained">
+          Contact
+        </Button>
       </Toolbar>
     </React.Fragment>
   );
