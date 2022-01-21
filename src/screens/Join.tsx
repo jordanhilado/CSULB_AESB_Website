@@ -14,7 +14,7 @@ export default function Join() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
-        <main>
+        <main style={{ color: "#E4E6EB" }}>
           <h1>Join AESB</h1>
           <p>
             Join an AESB committee to become more involved with the CSULB

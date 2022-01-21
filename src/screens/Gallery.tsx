@@ -30,7 +30,7 @@ export default function Gallery() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
-        <main>
+        <main style={{ color: "#E4E6EB" }}>
           <h1>Gallery</h1>
           <div style={CONTAINER as React.CSSProperties}>
             {galleryInfo.map((gallery) => {

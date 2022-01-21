@@ -14,7 +14,7 @@ export default function About() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" style={{ color: "#E4E6EB" }}>
         <Header title="CSULB AESB" sections={sections} />
         <main>
           <h1>About us</h1>

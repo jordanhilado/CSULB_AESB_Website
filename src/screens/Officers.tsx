@@ -30,7 +30,7 @@ export default function Officers() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
-        <main>
+        <main style={{ color: "#E4E6EB" }}>
           <h1>Officers</h1>
           <p>
             Our Council is composed of two boards – Executive Board and
@@ -42,7 +42,15 @@ export default function Officers() {
             {officerInfo.map((officer) => {
               return (
                 <>
-                  <Card sx={{ maxHeight: 400, maxWidth: 345, borderRadius: 3 }}>
+                  <Card
+                    sx={{
+                      maxHeight: "fit-content",
+                      maxWidth: 345,
+                      borderRadius: 3,
+                      backgroundColor: "#242526",
+                      color: "#E4E6EB",
+                    }}
+                  >
                     <CardMedia
                       component="img"
                       height="200"
@@ -54,12 +62,13 @@ export default function Officers() {
                         <Typography
                           gutterBottom
                           variant="body2"
+                          color="#E4E6EB"
                           component="div"
                         >
                           {officer.major}
                         </Typography>
                       </Typography>
-                      <Typography variant="body1" color="text.secondary">
+                      <Typography variant="body1" color="#E4E6EB">
                         {officer.description}
                       </Typography>
                     </CardContent>

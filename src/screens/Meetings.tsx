@@ -14,7 +14,7 @@ export default function Meetings() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
-        <main>
+        <main style={{ color: "#E4E6EB" }}>
           <h1>Meetings and Events</h1>
           <p>
             Welcome to Spring 2022! Meetings and events will be announced soon!

@@ -22,7 +22,7 @@ const CONTAINER = {
   flexDirection: "row",
   flexWrap: "wrap",
   justifyContent: "space-evenly",
-  rowGap: 40,
+  rowGap: 80,
 };
 
 export default function ClubsAndOrganizations() {
@@ -32,12 +32,20 @@ export default function ClubsAndOrganizations() {
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
         <main>
-          <h1>Clubs and Organizations</h1>
+          <h1 style={{ color: "#E4E6EB" }}>Clubs and Organizations</h1>
           <div style={CONTAINER as React.CSSProperties}>
             {clubInfo.map((club) => {
               return (
                 <>
-                  <Card sx={{ maxWidth: 350, borderRadius: 3 }}>
+                  <Card
+                    sx={{
+                      height: "fit-content",
+                      maxWidth: 350,
+                      borderRadius: 3,
+                      backgroundColor: "#242526",
+                      color: "#E4E6EB",
+                    }}
+                  >
                     <CardMedia
                       component="img"
                       height="200"
@@ -47,7 +55,7 @@ export default function ClubsAndOrganizations() {
                       <Typography gutterBottom variant="h5" component="div">
                         {club.name}
                       </Typography>
-                      <Typography variant="body1" color="text.secondary">
+                      <Typography variant="body1" color="#E4E6EB">
                         {club.description}
                       </Typography>
                     </CardContent>

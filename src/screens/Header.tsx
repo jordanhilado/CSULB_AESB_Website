@@ -16,12 +16,25 @@ interface HeaderProps {
   title: string;
 }
 
+const NAVBAR = {
+  width: "100%",
+  display: "flex",
+};
+
+const NAVBAR_TITLE = {
+  fontSize: 60,
+  fontWeight: "bold",
+  color: "#437F97",
+  textShadow:
+    "-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff",
+};
+
 export default function Header(props: HeaderProps) {
   const { sections, title } = props;
 
   return (
     <React.Fragment>
-      <Toolbar sx={{ borderBottom: 1, borderColor: "divider" }}>
+      <Toolbar sx={{ borderBottom: 1, borderColor: "#3A3B3C" }}>
         {/* <Button size="small">Subscribe</Button> */}
         {/* <Typography
           component="h2"
@@ -31,8 +44,12 @@ export default function Header(props: HeaderProps) {
           noWrap
           sx={{ flex: 1 }}
         > */}
-        <img src="../assets/aesb.png" height={200} width={200} />
-        <a href="/">{title}</a>
+        <div style={NAVBAR as React.CSSProperties}>
+          {/* <img src={require("../assets/aesb.png")} height={60} width={60} /> */}
+          <a style={NAVBAR_TITLE as React.CSSProperties} href="/">
+            {title}
+          </a>
+        </div>
         {/* </Typography> */}
         {/* <IconButton>
           <SearchIcon />
@@ -44,7 +61,13 @@ export default function Header(props: HeaderProps) {
       <Toolbar
         component="nav"
         variant="dense"
-        sx={{ justifyContent: "space-between", overflowX: "auto" }}
+        sx={{
+          justifyContent: "space-between",
+          overflowX: "auto",
+          borderBottom: 1,
+          borderColor: "#3A3B3C",
+          marginBottom: 3,
+        }}
       >
         {sections.map((section) => (
           <Button href={section.url} variant="text">

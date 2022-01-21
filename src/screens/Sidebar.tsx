@@ -24,11 +24,11 @@ export default function Sidebar(props: SidebarProps) {
 
   return (
     <Grid item xs={12} md={4}>
-      <Paper elevation={0} sx={{ p: 2, bgcolor: "grey.200" }}>
-        <Typography variant="h6" gutterBottom>
+      <Paper elevation={0} sx={{ p: 2, bgcolor: "#242526" }}>
+        <Typography variant="h6" color="#E4E6EB" gutterBottom>
           {title}
         </Typography>
-        <Typography>{description}</Typography>
+        <Typography color="#E4E6EB">{description}</Typography>
       </Paper>
       {/* <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
         Archives
@@ -43,11 +43,12 @@ export default function Sidebar(props: SidebarProps) {
           {archive.title}
         </Link>
       ))} */}
-      <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
+      <Typography color="#E4E6EB" variant="h6" gutterBottom sx={{ mt: 3 }}>
         Social
       </Typography>
       {social.map((network) => (
         <Link
+          color="#E4E6EB"
           display="block"
           variant="body1"
           href={network.socialURL}

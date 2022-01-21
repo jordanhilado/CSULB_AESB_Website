@@ -6,7 +6,22 @@ export const theme = createTheme({
   },
   palette: {
     background: {
-      default: "white",
+      default: "#18191A",
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        text: {
+          color: "#437F97",
+        },
+        contained: {
+          backgroundColor: "#437F97",
+        },
+        outlined: {
+          color: "#437F97",
+        },
+      },
     },
   },
 });

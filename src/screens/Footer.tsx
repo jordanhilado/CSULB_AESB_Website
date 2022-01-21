@@ -6,7 +6,7 @@ import Link from "@mui/material/Link";
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
+    <Typography variant="body2" color="#E4E6EB" align="center">
       {"Copyright © "}
       <Link color="inherit" href="https://www.csulb.edu/">
         CSULB AESB
@@ -26,7 +26,7 @@ export default function Footer(props: FooterProps) {
   const { description, title } = props;
 
   return (
-    <Box component="footer" sx={{ bgcolor: "background.paper", py: 6 }}>
+    <Box component="footer" sx={{ bgcolor: "#18191A", py: 6 }}>
       <Container maxWidth="lg">
         <Typography variant="h6" align="center" gutterBottom>
           {title}
@@ -34,7 +34,7 @@ export default function Footer(props: FooterProps) {
         <Typography
           variant="subtitle1"
           align="center"
-          color="text.secondary"
+          color="#E4E6EB"
           component="p"
         >
           {description}

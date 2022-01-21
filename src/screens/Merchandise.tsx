@@ -14,7 +14,7 @@ export default function Merchandise() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
-        <main>
+        <main style={{ color: "#E4E6EB" }}>
           <h1>Merchandise</h1>
           <p>
             We will be releasing new AESB merchandise this Spring 2022! Keep an
