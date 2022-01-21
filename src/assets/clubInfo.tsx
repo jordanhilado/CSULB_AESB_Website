@@ -1,181 +1,235 @@
+import acm from "../assets/acm.jpeg";
+import aiaa from "../assets/aiaa.jpeg";
+import aiche from "../assets/aiche.jpeg";
+import asce from "../assets/asce.jpeg";
+import asme from "../assets/asme.jpeg";
+import blt from "../assets/blt.jpeg";
+import eat from "../assets/eat.jpeg";
+import emb from "../assets/emb.jpeg";
+import hkn from "../assets/hkn.jpeg";
+import ieee from "../assets/ieee.jpeg";
+import ite from "../assets/ite.jpeg";
+import lbr from "../assets/lbr.png";
+import maes from "../assets/maes.jpeg";
+import luna from "../assets/luna.png";
+import nsbe from "../assets/nsbe.jpeg";
+import pts from "../assets/pts.png";
+import sae from "../assets/sae.jpeg";
+import sase from "../assets/sase.jpeg";
+import spe from "../assets/spe.jpeg";
+import shpe from "../assets/shpe.jpeg";
+import swe from "../assets/swe.jpeg";
+import tbp from "../assets/tbp.jpeg";
+import tt from "../assets/tt.jpeg";
+import wic from "../assets/wic.jpeg";
+import ce from "../assets/ce.jpeg";
+import vgda from "../assets/vgda.jpeg";
+
 export const clubInfo = [
   {
     name: "Association for Computing Machinery",
     description: "ACM is the largest computer science ogranization on campus.",
-    image: "",
+    image: acm,
     link: "https://csulb.acm.org/",
+    beachsync:
+      "https://csulb.campuslabs.com/engage/organization/association-for-computing-machinery-acm",
   },
   {
     name: "American Institute of Aeronautics and Astronautics",
     description:
       "The American Institute of Aeronautics and Astronautics (AIAA) is an Aerospace Engineering organization.",
-    image: "",
+    image: aiaa,
     link: "https://www.csulbaiaa.org/",
+    beachsync: "",
   },
   {
     name: "American Institute of Chemical Engineers",
     description:
       "The American Institute of Chemical Engineers, Long Beach student chapter is a chemical engineering professional development organization.",
-    image: "",
+    image: aiche,
     link: "https://aichecsulb.wixsite.com/csulbaiche",
+    beachsync: "",
   },
   {
     name: "American Society of Civil Engineers",
     description:
       "The American Society of Civil Engineers (ASCE) is devoted to the development and continued learning of civil engineering students.",
-    image: "",
+    image: asce,
     link: "https://www.csulbasce.org/",
+    beachsync: "",
   },
   {
     name: "American Society of Mechanical Engineers",
     description:
       "ASMEs mission is to serve diverse global communities by disseminating and applying engineering knowledge for improving the quality of life and communicating the excitement of engineering.",
-    image: "",
+    image: asme,
     link: "https://www.instagram.com/csulbasme/?hl=en",
+    beachsync: "",
   },
   {
     name: "Beach Launch Team",
     description:
       "Beach Launch Team aims to provide a professional environment where CSULB students can learn and get hands-on experience with rockets.",
-    image: "",
+    image: blt,
     link: "https://www.beachlaunch.team/",
+    beachsync: "",
   },
   {
     name: "Embedded Applications Technology",
     description:
       "The club exists to promote student projects for the pursuit of knowledge, fun and intellectual prosperity in the realm of all things computing and programming.",
-    image: "",
+    image: eat,
     link: "https://sites.google.com/eatsociety.org/eats-cal-state-lb/home?authuser=0",
+    beachsync: "",
   },
   {
     name: "Engineering in Medicine & Biology Society",
     description: "",
-    image: "",
+    image: emb,
     link: "https://www.instagram.com/csulbembs/?hl=en",
+    beachsync: "",
   },
   {
     name: "Eta Kappa Nu",
     description:
       "IEEE-HKN is a unique membership organization dedicated to encouraging and recognizing excellence in the IEEE-designated fields of interest.",
-    image: "",
+    image: hkn,
     link: "https://www.csulbhkn.org/",
+    beachsync: "",
   },
   {
     name: "Institute of Electrical and Electronics Engineers",
     description:
       "We are IEEE, the Institute of Electrical and Electronics Engineers, an international club with 419,000 members in 160 countries.",
-    image: "",
+    image: ieee,
     link: "https://ewh.ieee.org/sb/csulb/",
+    beachsync: "",
   },
   {
     name: "Institute of Transportation Engineers",
     description: "",
-    image: "",
+    image: ite,
     link: "https://www.facebook.com/ite.csulb",
+    beachsync: "",
   },
   {
     name: "Long Beach Rocketry",
     description:
       "LBR is dedicated to providing students with challenging and novel engineering experiences. Our members work together to succeed in the NASA Student Launch rocket competition.",
-    image: "",
+    image: lbr,
     link: "https://www.instagram.com/longbeachrocketry/?hl=en",
+    beachsync: "",
   },
   {
     name: "MAES: Latinos in engineering and Science",
     description:
       "MAES Long Beach is the leading Latino engineering organization in Los Angeles known for producing exemplary professionals and for promoting STEM within the community.",
-    image: "",
+    image: maes,
     link: "https://www.csulbmaes.org/",
+    beachsync: "",
   },
   {
     name: "Long Beach Lunabotics",
     description:
       "We are Cal State University Long Beach’s team: the Space Sharks. Our team is composed of passionate students from mechanical engineering, electrical engineering, and computer science.",
-    image: "",
+    image: luna,
     link: "https://beachlunabotics.org/",
+    beachsync: "",
   },
   {
     name: "National Society Black Engineers",
     description:
       "NSBE supports and promotes the aspirations of collegiate and pre-collegiate students and technical professionals in engineering and technology.",
-    image: "",
+    image: nsbe,
     link: "https://nsbecsulb.weebly.com/",
+    beachsync: "",
   },
   {
     name: "Pi Tau Sigma",
     description:
       "Pi Tau Sigma is an academic honor society for mechanical engineering majors and professionals.",
-    image: "",
+    image: pts,
     link: "http://www.csulbpts.org/",
+    beachsync: "",
   },
   {
     name: "Society of Automotive Engineers",
     description:
       "The CSULB Society of Automotive Engineers offers hands on experience with design, analysis, manufacturing, testing, and racing of two vehicles every academic year.",
-    image: "",
+    image: sae,
     link: "https://sites.google.com/site/csulbsaeorg/home",
+    beachsync: "",
   },
   {
     name: "Society of Asian Scientists & Engineers",
     description:
       "We are the Society of Asian Scientists & Engineers at California State University, Long Beach, committed to preparing leaders, celebrating diversity, and giving back to the Asian-American community.",
-    image: "",
+    image: sase,
     link: "https://csulbsase.com/",
+    beachsync: "",
   },
   {
     name: "Society of Hispanic Professional Engineers",
     description:
       "The Society of Hispanic Professional Engineers, California State University, Long Beach student chapter, provides for the academic, professional, and personal development of the Hispanic student community.",
-    image: "",
+    image: shpe,
     link: "http://csulbshpe.org/",
+    beachsync: "",
   },
   {
     name: "Society of Petroleum Engineers",
     description:
       "CSULB SPE serves to connect and inform students of petroleum-related insights and seeks to provide a gateway into Oil and Gas related career paths.",
-    image: "",
+    image: spe,
     link: "https://www.facebook.com/SPEATCSULB/f",
+    beachsync: "",
   },
   {
     name: "Society of Women Engineers",
     description:
       " The Society of Women Engineers (SWE) is a not-for-profit educational and service organization that empowers women to succeed and advance in the field of engineering, and to be recognized for their life-changing contributions as engineers and leaders.",
-    image: "",
+    image: swe,
     link: "https://www.csulbswe.org/",
+    beachsync: "",
   },
   {
     name: "Tau Beta Pi",
     description:
       "Tau Beta Pi is the only international engineering honor society to recognize engineers of all disciplines.",
-    image: "",
+    image: tbp,
     link: "http://www.tbpcatheta.org/#/",
+    beachsync: "",
   },
   {
     name: "Theta Tau",
     description:
       "Theta Tau is a co-ed professional engineering fraternity built to develop in its members a strong professional interest in its members and to unite them in a strong bond of fraternal fellowship.",
-    image: "",
+    image: tt,
     link: "https://www.beachthetatau.com/",
+    beachsync: "",
   },
   {
     name: "Women in Computing",
     description:
       "Women in Computing (WiC) is a student-run organization at California State University, Long Beach that is building a community to uplift and facilitate the ongoing growth of the next generation of women* in technology.",
-    image: "",
+    image: wic,
     link: "https://csulbwic.com/",
+    beachsync: "",
   },
   {
     name: "Chi Epsilon",
     description:
       "Women in Computing (WiC) is a student-run organization at California State University, Long Beach that is building a community to uplift and facilitate the ongoing growth of the next generation of women* in technology.",
-    image: "",
+    image: ce,
     link: "https://chiep-csulb.webs.com/",
+    beachsync: "",
   },
   {
     name: "Video Game Development Association",
     description:
       "Each semester, VGDA members have the opportunity to work in a studio-like environment where they develop a video game of “shippable” quality.",
-    image: "",
+    image: vgda,
     link: "https://csulbvgda.wordpress.com/",
+    beachsync: "",
   },
 ];

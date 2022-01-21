@@ -41,7 +41,7 @@ export default function ClubsAndOrganizations() {
                     <CardMedia
                       component="img"
                       height="200"
-                      image="https://source.unsplash.com/random"
+                      image={club.image}
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
@@ -59,6 +59,14 @@ export default function ClubsAndOrganizations() {
                         size="small"
                       >
                         Website
+                      </Button>
+                      <Button
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={club.beachsync}
+                        size="small"
+                      >
+                        BeachSync
                       </Button>
                     </CardActions>
                   </Card>
