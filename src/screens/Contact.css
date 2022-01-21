@@ -1,0 +1,23 @@
+.BUTTON {
+  background-color: #3576cb;
+  color: white;
+  width: 500px;
+  height: 80px;
+  border-radius: 35px;
+  display: flex;
+  transition: 0.5s;
+  text-decoration: none !important;
+  /* border: 2px solid purple; */
+}
+
+.BUTTON:hover {
+  outline: 8px solid #3576cb;
+  background-color: white;
+  color: #3576cb;
+}
+
+.noDecoration,
+a:link,
+a:visited {
+  text-decoration: none;
+}

@@ -5,6 +5,5 @@ export const sections = [
   { title: "Officers", url: "/officers" },
   { title: "Merchandise", url: "/merchandise" },
   { title: "Gallery", url: "/gallery" },
-  { title: "Calendar", url: "/calendar" },
   { title: "Join AESB", url: "/join" },
 ];

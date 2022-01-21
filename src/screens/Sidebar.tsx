@@ -30,7 +30,7 @@ export default function Sidebar(props: SidebarProps) {
         </Typography>
         <Typography>{description}</Typography>
       </Paper>
-      <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
+      {/* <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
         Archives
       </Typography>
       {archives.map((archive) => (
@@ -42,7 +42,7 @@ export default function Sidebar(props: SidebarProps) {
         >
           {archive.title}
         </Link>
-      ))}
+      ))} */}
       <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
         Social
       </Typography>

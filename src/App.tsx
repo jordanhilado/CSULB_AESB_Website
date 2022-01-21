@@ -8,7 +8,6 @@ import Clubs from "./screens/ClubsAndOrganizations";
 import Meetings from "./screens/Meetings";
 import Officers from "./screens/Officers";
 import Merchandise from "./screens/Merchandise";
-import Calendar from "./screens/Calendar";
 import Gallery from "./screens/Gallery";
 import Join from "./screens/Join";
 import Contact from "./screens/Contact";
@@ -23,7 +22,6 @@ function App() {
       <Route path="officers" element={<Officers />} />
       <Route path="merchandise" element={<Merchandise />} />
       <Route path="gallery" element={<Gallery />} />
-      <Route path="calendar" element={<Calendar />} />
       <Route path="join" element={<Join />} />
       <Route path="contact" element={<Contact />} />
     </Routes>
