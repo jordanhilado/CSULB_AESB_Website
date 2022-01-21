@@ -23,18 +23,17 @@ export default function Header(props: HeaderProps) {
     <React.Fragment>
       <Toolbar sx={{ borderBottom: 1, borderColor: "divider" }}>
         {/* <Button size="small">Subscribe</Button> */}
-        <Typography
+        {/* <Typography
           component="h2"
           variant="h2"
           color="white"
           align="center"
           noWrap
           sx={{ flex: 1 }}
-        >
-          <Button href="/" variant="text">
-            {title}
-          </Button>
-        </Typography>
+        > */}
+        <img src="../assets/aesb.png" height={200} width={200} />
+        <a href="/">{title}</a>
+        {/* </Typography> */}
         {/* <IconButton>
           <SearchIcon />
         </IconButton>

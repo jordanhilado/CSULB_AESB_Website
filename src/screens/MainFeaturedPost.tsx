@@ -15,6 +15,10 @@ interface MainFeaturedPostProps {
   };
 }
 
+const HEADER_TITLE = {
+  fontWeight: "bold",
+};
+
 export default function MainFeaturedPost(props: MainFeaturedPostProps) {
   const { post } = props;
 
@@ -66,14 +70,16 @@ export default function MainFeaturedPost(props: MainFeaturedPostProps) {
               color="inherit"
               gutterBottom
             >
-              {post.title}
+              <div style={HEADER_TITLE as React.CSSProperties}>
+                {post.title}
+              </div>
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
               {post.description}
             </Typography>
-            <Link variant="subtitle1" href="#">
+            {/* <Link variant="subtitle1" href="#">
               {post.linkText}
-            </Link>
+            </Link> */}
           </Box>
         </Grid>
       </Grid>
