@@ -42,7 +42,13 @@ export default function Gallery() {
                     rel="noopener noreferrer"
                     href={gallery.link}
                   >
-                    <Card sx={{ borderRadius: 3 }}>
+                    <Card
+                      sx={{
+                        borderRadius: 3,
+                        backgroundColor: "#242526",
+                        color: "#E4E6EB",
+                      }}
+                    >
                       <CardActionArea>
                         <CardMedia
                           component="img"
@@ -54,7 +60,7 @@ export default function Gallery() {
                           <Typography gutterBottom variant="h5" component="div">
                             {gallery.title}
                           </Typography>
-                          <Typography variant="body2" color="text.secondary">
+                          <Typography variant="body2">
                             {gallery.date}
                           </Typography>
                         </CardContent>

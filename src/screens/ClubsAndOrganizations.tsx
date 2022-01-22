@@ -65,6 +65,7 @@ export default function ClubsAndOrganizations() {
                         rel="noopener noreferrer"
                         href={club.link}
                         size="small"
+                        variant="contained"
                       >
                         Website
                       </Button>
@@ -73,6 +74,7 @@ export default function ClubsAndOrganizations() {
                         rel="noopener noreferrer"
                         href={club.beachsync}
                         size="small"
+                        variant="outlined"
                       >
                         BeachSync
                       </Button>

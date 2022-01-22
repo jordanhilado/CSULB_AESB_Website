@@ -8,9 +8,13 @@ function Copyright() {
   return (
     <Typography variant="body2" color="#E4E6EB" align="center">
       {"Copyright © "}
-      <Link color="inherit" href="https://www.csulb.edu/">
-        CSULB AESB
-      </Link>{" "}
+      <Link
+        style={{ color: "#E4E6EB", textDecoration: "underline" }}
+        href="https://www.csulb.edu/"
+      >
+        CSULB
+      </Link>
+      {" AESB "}
       {new Date().getFullYear()}
       {"."}
     </Typography>

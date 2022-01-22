@@ -17,9 +17,16 @@ export const theme = createTheme({
         },
         contained: {
           backgroundColor: "#437F97",
+          "&:hover": {
+            backgroundColor: "rgba(67, 127, 151, 0.8)",
+          },
         },
         outlined: {
           color: "#437F97",
+          border: "1px solid #437F97",
+          "&:hover": {
+            border: "1px solid #437F97",
+          },
         },
       },
     },

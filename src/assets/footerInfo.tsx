@@ -1,2 +1,1 @@
-export const footerInfo =
-  "Built with ❤️ in Long Beach, CA - Last updated 01/20 by AESB Webmaster";
+export const footerInfo = "Last updated 01/21 by AESB Webmaster";

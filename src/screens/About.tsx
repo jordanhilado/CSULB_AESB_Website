@@ -9,6 +9,7 @@ import Button from "@mui/material/Button";
 import { theme } from "./theme";
 import { footerInfo } from "../assets/footerInfo";
 import { Divider } from "@material-ui/core";
+import "./About.css";
 
 export default function About() {
   return (
@@ -28,15 +29,18 @@ export default function About() {
             the COE administration, faculty, recognized student organizations,
             and members of the COE student body.
           </p>
-          <h3>
-            "To promote and maintain the establishment of student organizations
-            within the COE. To serve as a representative voice of the students
-            of the COE on all matters concerning them. To provide a forum for
-            the discussion and resolution of problems common to the students of
-            the COE. To stimulate interaction and interest between faculty and
-            students of all academic areas in the COE."
-          </h3>
-          <p>– Associated Engineering Student Body</p>
+          <blockquote>
+            <h3>
+              "To promote and maintain the establishment of student
+              organizations within the COE. To serve as a representative voice
+              of the students of the COE on all matters concerning them. To
+              provide a forum for the discussion and resolution of problems
+              common to the students of the COE. To stimulate interaction and
+              interest between faculty and students of all academic areas in the
+              COE."
+            </h3>
+            <p>– Associated Engineering Student Body</p>
+          </blockquote>
           <Button
             href="https://docs.google.com/document/d/1_QzCOAQQmeHsur68QVHVzEYMDBH2UiURCNOqPg8ruSs/edit?ts=5d73e77a"
             variant="outlined"

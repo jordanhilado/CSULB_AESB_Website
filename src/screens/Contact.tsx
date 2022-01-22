@@ -83,9 +83,8 @@ export default function Contact() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="CSULB AESB" sections={sections} />
-        <main>
+        <main style={{ color: "#E4E6EB" }}>
           <h1>Contact</h1>
-          <p>Here's how you can contact us:</p>
           <div style={CONTAINER as React.CSSProperties}>
             {contactInfo.map((contact) => {
               return (
