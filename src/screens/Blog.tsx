@@ -4,10 +4,10 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 import Header from "./Header";
 import MainFeaturedPost from "./MainFeaturedPost";
-import FeaturedPost from "./FeaturedPost";
+// import FeaturedPost from "./FeaturedPost";
 import Main from "./Main";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
@@ -27,24 +27,24 @@ const mainFeaturedPost = {
   linkText: "Continue reading…",
 };
 
-const featuredPosts = [
-  {
-    title: "Featured post",
-    date: "Nov 12",
-    description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    image: "https://source.unsplash.com/random",
-    imageLabel: "Image Text",
-  },
-  {
-    title: "Post title",
-    date: "Nov 11",
-    description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    image: "https://source.unsplash.com/random",
-    imageLabel: "Image Text",
-  },
-];
+// const featuredPosts = [
+//   {
+//     title: "Featured post",
+//     date: "Nov 12",
+//     description:
+//       "This is a wider card with supporting text below as a natural lead-in to additional content.",
+//     image: "https://source.unsplash.com/random",
+//     imageLabel: "Image Text",
+//   },
+//   {
+//     title: "Post title",
+//     date: "Nov 11",
+//     description:
+//       "This is a wider card with supporting text below as a natural lead-in to additional content.",
+//     image: "https://source.unsplash.com/random",
+//     imageLabel: "Image Text",
+//   },
+// ];
 
 const posts = [post1, post2, post3];
 

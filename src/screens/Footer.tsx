@@ -11,6 +11,8 @@ function Copyright() {
       <Link
         style={{ color: "#E4E6EB", textDecoration: "underline" }}
         href="https://www.csulb.edu/"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         CSULB
       </Link>

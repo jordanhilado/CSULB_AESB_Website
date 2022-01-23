@@ -1,5 +1,3 @@
-import speeddating from "../assets/speeddating.png";
-import awards from "../assets/awards.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { Container } from "@mui/material";
 import Header from "./Header";
@@ -8,7 +8,7 @@ import Footer from "./Footer";
 import Button from "@mui/material/Button";
 import { theme } from "./theme";
 import { footerInfo } from "../assets/footerInfo";
-import { Divider } from "@material-ui/core";
+// import { Divider } from "@material-ui/core";
 import "./About.css";
 
 export default function About() {

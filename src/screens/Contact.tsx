@@ -1,7 +1,7 @@
 import * as React from "react";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import { Container, Link } from "@mui/material";
+import { Container } from "@mui/material";
 import Header from "./Header";
 import { sections } from "./Sections";
 import Footer from "./Footer";

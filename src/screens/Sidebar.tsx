@@ -20,7 +20,7 @@ interface SidebarProps {
 }
 
 export default function Sidebar(props: SidebarProps) {
-  const { archives, description, social, title } = props;
+  const { description, social, title } = props;
 
   return (
     <Grid item xs={12} md={4}>

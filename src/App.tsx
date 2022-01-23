@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Main from "./screens/Blog";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "./screens/About";
 import Clubs from "./screens/ClubsAndOrganizations";
 import Meetings from "./screens/Meetings";

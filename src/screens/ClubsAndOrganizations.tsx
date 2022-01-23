@@ -1,5 +1,5 @@
 import * as React from "react";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { Container } from "@mui/material";
 import Header from "./Header";
@@ -12,7 +12,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
+// import { CardActionArea } from "@mui/material";
 import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 

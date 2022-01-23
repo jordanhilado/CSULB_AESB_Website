@@ -14,6 +14,7 @@ export default function Main(props: MainProps) {
 
   return (
     <Grid
+      color="#E4E6EB"
       item
       xs={12}
       md={8}
@@ -26,7 +27,8 @@ export default function Main(props: MainProps) {
       <Typography variant="h6" gutterBottom>
         {title}
       </Typography>
-      <Divider />
+      <Divider style={{ backgroundColor: "#3A3B3C" }} />
+      <br />
       {posts.map((post) => (
         <Markdown className="markdown" key={post.substring(0, 40)}>
           {post}
