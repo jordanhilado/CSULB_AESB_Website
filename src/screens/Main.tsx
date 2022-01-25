@@ -3,10 +3,6 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import Markdown from "./Markdown";
-import ReactMarkdown from "react-markdown";
-import post1 from "./blog-post.1.md";
-import post2 from "./blog-post.2.md";
-import post3 from "./blog-post.3.md";
 
 interface MainProps {
   posts: ReadonlyArray<string>;
@@ -18,7 +14,6 @@ export default function Main(props: MainProps) {
 
   return (
     <Grid
-      color="#E4E6EB"
       item
       xs={12}
       md={8}
@@ -31,9 +26,12 @@ export default function Main(props: MainProps) {
       <Typography variant="h6" gutterBottom>
         {title}
       </Typography>
-      <Divider style={{ backgroundColor: "#3A3B3C" }} />
-      <br />
-      <ReactMarkdown children={post1} />
+      <Divider />
+      {posts.map((post) => (
+        <Markdown className="markdown" key={post.substring(0, 40)}>
+          {post}
+        </Markdown>
+      ))}
     </Grid>
   );
 }
