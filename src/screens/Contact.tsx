@@ -9,7 +9,6 @@ import { theme } from "./theme";
 import { footerInfo } from "../assets/footerInfo";
 import { contactInfo } from "../assets/contactInfo";
 import "./Contact.css";
-import { color } from "../assets/color";
 
 const CONTAINER = {
   // backgroundColor: "green",

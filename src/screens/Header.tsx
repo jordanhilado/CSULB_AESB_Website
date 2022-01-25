@@ -61,6 +61,7 @@ export default function Header(props: HeaderProps) {
             <img
               style={NAVBAR_LOGO as React.CSSProperties}
               src={require("../assets/aesb.png")}
+              alt="aesbLogo"
             />
             {title}
           </a>
