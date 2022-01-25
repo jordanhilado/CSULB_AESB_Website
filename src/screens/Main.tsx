@@ -5,12 +5,11 @@ import Divider from "@mui/material/Divider";
 import { blogInfo } from "./blogInfo";
 
 interface MainProps {
-  posts: ReadonlyArray<string>;
   title: string;
 }
 
 export default function Main(props: MainProps) {
-  const { posts, title } = props;
+  const { title } = props;
 
   return (
     <Grid

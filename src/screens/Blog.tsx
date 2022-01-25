@@ -11,9 +11,9 @@ import MainFeaturedPost from "./MainFeaturedPost";
 import Main from "./Main";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
-import post1 from "./blog-post.1.md";
-import post2 from "./blog-post.2.md";
-import post3 from "./blog-post.3.md";
+// import post1 from "./blog-post.1.md";
+// import post2 from "./blog-post.2.md";
+// import post3 from "./blog-post.3.md";
 import { sections } from "./Sections";
 import { theme } from "./theme";
 import { footerInfo } from "../assets/footerInfo";
@@ -46,7 +46,7 @@ const mainFeaturedPost = {
 //   },
 // ];
 
-const posts = [post1, post2, post3];
+// const posts = [post1, post2, post3];
 
 const sidebar = {
   title: "About",
@@ -93,7 +93,7 @@ export default function Blog() {
             ))}
           </Grid> */}
           <Grid container spacing={5} sx={{ mt: 3 }}>
-            <Main title="Blog Posts" posts={posts} />
+            <Main title="Blog Posts" />
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}
