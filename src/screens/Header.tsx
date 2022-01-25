@@ -62,7 +62,7 @@ export default function Header(props: HeaderProps) {
         component="nav"
         variant="dense"
         sx={{
-          justifyContent: "space-between",
+          justifyContent: "space-around",
           overflowX: "auto",
           borderBottom: 1,
           borderColor: "#3A3B3C",
@@ -70,7 +70,11 @@ export default function Header(props: HeaderProps) {
         }}
       >
         {sections.map((section) => (
-          <Button href={section.url} variant="text">
+          <Button
+            href={section.url}
+            variant="text"
+            style={{ minWidth: "fit-content", margin: 10 }}
+          >
             {section.title}
           </Button>
           // <Link
@@ -84,7 +88,11 @@ export default function Header(props: HeaderProps) {
           //   {section.title}
           // </Link>
         ))}
-        <Button href="/contact" variant="contained">
+        <Button
+          style={{ minWidth: "fit-content", margin: 10 }}
+          href="/contact"
+          variant="contained"
+        >
           Contact
         </Button>
       </Toolbar>
