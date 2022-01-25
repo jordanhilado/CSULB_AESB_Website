@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 // import Typography from "@mui/material/Typography";
 // import Link from "@mui/material/Link";
 // import ButtonUnstyled from "@mui/base/ButtonUnstyled";
+import { color } from "../assets/color";
 
 interface HeaderProps {
   sections: ReadonlyArray<{
@@ -19,14 +20,25 @@ interface HeaderProps {
 const NAVBAR = {
   width: "100%",
   display: "flex",
+  justifyContent: "center",
+  // border: "4px solid black",
 };
 
 const NAVBAR_TITLE = {
   fontSize: 60,
   fontWeight: "bold",
-  color: "#437F97",
+  color: color.primary,
   textShadow:
     "-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff",
+  // border: "4px solid black",
+};
+
+const NAVBAR_LOGO = {
+  height: 60,
+  width: 60,
+  position: "relative",
+  top: 8,
+  // border: "1px solid red",
 };
 
 export default function Header(props: HeaderProps) {
@@ -45,8 +57,11 @@ export default function Header(props: HeaderProps) {
           sx={{ flex: 1 }}
         > */}
         <div style={NAVBAR as React.CSSProperties}>
-          {/* <img src={require("../assets/aesb.png")} height={60} width={60} /> */}
           <a style={NAVBAR_TITLE as React.CSSProperties} href="/">
+            <img
+              style={NAVBAR_LOGO as React.CSSProperties}
+              src={require("../assets/aesb.png")}
+            />
             {title}
           </a>
         </div>

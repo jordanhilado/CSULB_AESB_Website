@@ -1,4 +1,5 @@
 import { createTheme } from "@mui/material/styles";
+import { color } from "../assets/color";
 
 export const theme = createTheme({
   typography: {
@@ -6,26 +7,31 @@ export const theme = createTheme({
   },
   palette: {
     background: {
-      default: "#18191A",
+      default: color.dark,
     },
   },
   components: {
     MuiButton: {
       styleOverrides: {
         text: {
-          color: "#437F97",
+          color: color.primary,
+          "&:hover": {
+            backgroundColor: color.primary + "20",
+          },
         },
         contained: {
-          backgroundColor: "#437F97",
+          backgroundColor: color.primary,
           "&:hover": {
-            backgroundColor: "rgba(67, 127, 151, 0.8)",
+            backgroundColor: color.primary + "90",
           },
         },
         outlined: {
-          color: "#437F97",
-          border: "1px solid #437F97",
+          color: color.primary,
+          backgroundColor: color.primary + "10",
+          border: "1px solid " + color.primary,
           "&:hover": {
-            border: "1px solid #437F97",
+            backgroundColor: color.primary + "20",
+            border: "1px solid " + color.primary,
           },
         },
       },

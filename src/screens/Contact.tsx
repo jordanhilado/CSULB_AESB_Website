@@ -9,6 +9,7 @@ import { theme } from "./theme";
 import { footerInfo } from "../assets/footerInfo";
 import { contactInfo } from "../assets/contactInfo";
 import "./Contact.css";
+import { color } from "../assets/color";
 
 const CONTAINER = {
   // backgroundColor: "green",
@@ -35,7 +36,6 @@ const CHILD_1 = {
   width: "fit-content",
   lineHeight: 0.8,
   marginLeft: 50,
-
   // border: "2px solid green",
 };
 
