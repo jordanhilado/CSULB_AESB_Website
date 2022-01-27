@@ -16,9 +16,16 @@ export default function Meetings() {
         <Header title="CSULB AESB" sections={sections} />
         <main style={{ color: "#E4E6EB" }}>
           <h1>Meetings and Events</h1>
-          <p>
-            Welcome to Spring 2022! Meetings and events will be announced soon!
-          </p>
+          <h2 style={{ textAlign: "center" }}>
+            Tentative Spring 2022 AESB Meetings
+          </h2>
+          <tbody>
+            <tr id="row0">
+              <td id="cell0-0">test</td>
+              <td id="cell0-1">sdf</td>
+              <td id="cell0-2">asdf</td>
+            </tr>
+          </tbody>
         </main>
       </Container>
       <Footer description={footerInfo} />
