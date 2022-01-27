@@ -7,31 +7,32 @@ export const theme = createTheme({
   },
   palette: {
     background: {
-      default: color.dark,
+      default: color.darkest,
     },
   },
   components: {
     MuiButton: {
       styleOverrides: {
         text: {
-          color: color.primary,
+          color: color.secondary,
           "&:hover": {
-            backgroundColor: color.primary + "20",
+            backgroundColor: color.secondary + "20",
           },
         },
         contained: {
-          backgroundColor: color.primary,
+          color: color.darker,
+          backgroundColor: color.secondary,
           "&:hover": {
-            backgroundColor: color.primary + "90",
+            backgroundColor: color.secondary + "90",
           },
         },
         outlined: {
-          color: color.primary,
-          backgroundColor: color.primary + "10",
-          border: "1px solid " + color.primary,
+          color: color.secondary,
+          backgroundColor: color.secondary + "10",
+          border: "1px solid " + color.secondary,
           "&:hover": {
-            backgroundColor: color.primary + "20",
-            border: "1px solid " + color.primary,
+            backgroundColor: color.secondary + "20",
+            border: "1px solid " + color.secondary,
           },
         },
       },

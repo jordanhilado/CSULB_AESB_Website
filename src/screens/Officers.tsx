@@ -21,7 +21,7 @@ const CONTAINER = {
   flexDirection: "row",
   flexWrap: "wrap",
   justifyContent: "space-evenly",
-  rowGap: 40,
+  rowGap: 80,
 };
 
 export default function Officers() {
@@ -44,8 +44,8 @@ export default function Officers() {
                 <>
                   <Card
                     sx={{
-                      maxHeight: "fit-content",
-                      maxWidth: 345,
+                      height: "fit-content",
+                      width: 345,
                       borderRadius: 3,
                       backgroundColor: "#242526",
                       color: "#E4E6EB",
@@ -58,7 +58,17 @@ export default function Officers() {
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
-                        {officer.name}, {officer.role}
+                        <Typography
+                          style={{
+                            fontWeight: "bold",
+                          }}
+                          gutterBottom
+                          variant="h4"
+                          component="div"
+                        >
+                          {officer.role}
+                        </Typography>
+                        {officer.name}
                         <Typography
                           gutterBottom
                           variant="body2"
@@ -73,7 +83,11 @@ export default function Officers() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button href={officer.email} size="small">
+                      <Button
+                        href={officer.email}
+                        size="small"
+                        variant="contained"
+                      >
                         Email
                       </Button>
                       <Button
@@ -81,6 +95,7 @@ export default function Officers() {
                         rel="noopener noreferrer"
                         href={officer.linkedin}
                         size="small"
+                        variant="outlined"
                       >
                         LinkedIn
                       </Button>
