@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import { ThemeProvider } from "@mui/material/styles";
 import Header from "./Header";
 import MainFeaturedPost from "./MainFeaturedPost";
@@ -75,6 +76,11 @@ const sidebar = {
       name: "Instagram",
       icon: InstagramIcon,
       socialURL: "https://www.instagram.com/csulbaesb/",
+    },
+    {
+      name: "GitHub",
+      icon: GitHubIcon,
+      socialURL: "https://github.com/jordanhilado/CSULB_AESB_Website",
     },
   ],
 };
