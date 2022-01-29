@@ -32,7 +32,7 @@ export default function Main(props: MainProps) {
           <h1>{blog.title}</h1>
           <p style={{ fontStyle: "italic" }}>{blog.subtitle}</p>
           <p>{blog.body}</p>
-          <Divider />
+          <Divider style={{ backgroundColor: "#3A3B3C" }} />
         </>
       ))}
     </Grid>
