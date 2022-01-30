@@ -234,7 +234,7 @@ export const clubInfo = [
   {
     name: "Chi Epsilon",
     description:
-      "Women in Computing (WiC) is a student-run organization at California State University, Long Beach that is building a community to uplift and facilitate the ongoing growth of the next generation of women* in technology.",
+      "Chi Epsilon was organized to recognize the characteristics of the individual civil engineer deemed to be fundamental to the successful pursuit of an engineering career, and to aid in the development of those characteristics in the civil engineering student.",
     image: ce,
     link: "https://chiep-csulb.webs.com/",
     beachsync:
