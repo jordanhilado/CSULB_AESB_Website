@@ -24,6 +24,15 @@ export const officerInfo = [
     image: blank,
   },
   {
+    role: "Co-Vice President",
+    name: "Christian Hernandez",
+    major: "Biomedical Engineering",
+    description: "",
+    linkedin: "https://linkedin.com",
+    email: "mailto:christian.hernandez05@student.csulb.edu",
+    image: blank,
+  },
+  {
     role: "Secretary",
     name: "Alfonxine Chanel Cao",
     major: "Biomedical Engineering",
