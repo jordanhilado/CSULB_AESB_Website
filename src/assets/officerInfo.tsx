@@ -3,6 +3,7 @@ import nathan from "./nathan.jpeg";
 import jordan from "./jordan.png";
 import blank from "./blank.png";
 import chanel from "./chanel.jpeg";
+import johnnie from "./johnnie.jpeg";
 
 export const officerInfo = [
   {
@@ -66,6 +67,6 @@ export const officerInfo = [
     description: "",
     linkedin: "https://www.linkedin.com/in/johnniemares/",
     email: "mailto:Johnnie.Mares01@student.csulb.edu",
-    image: blank,
+    image: johnnie,
   },
 ];
