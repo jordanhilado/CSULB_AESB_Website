@@ -4,6 +4,7 @@ import jordan from "./jordan.png";
 import blank from "./blank.png";
 import chanel from "./chanel.jpeg";
 import johnnie from "./johnnie.jpeg";
+import ninjin from "./ninjin.jpeg";
 
 export const officerInfo = [
   {
@@ -68,5 +69,14 @@ export const officerInfo = [
     linkedin: "https://www.linkedin.com/in/johnniemares/",
     email: "mailto:Johnnie.Mares01@student.csulb.edu",
     image: johnnie,
+  },
+  {
+    role: "Industry Chair",
+    name: "Ninjin Odkhuu",
+    major: "Computer Science",
+    description: "",
+    linkedin: "https://www.linkedin.com/in/ninjin-odkhuu-783672199/",
+    email: "mailto:industrychair01@aesb.org",
+    image: ninjin,
   },
 ];
