@@ -1,5 +1,12 @@
 export const blogInfo = [
   {
+    title: "Funding for COE Student Organizations",
+    subtitle: "February 11, 2022 by Margo McCall",
+    body: "CSULB College of Engineering student organizations may submit proposals to request supporting funds from the College of Engineering. The funding can support projects, events, conferences, or other club programs. Applications will be received until the funding is depleted. The review and approval process will take an average of 2-3 weeks – please plan accordingly. To submit a proposal, visit the link below.",
+    link: "https://www.csulb.edu/college-of-engineering/form/2022-coe-student-organization-funding-proposals",
+    linkname: "COE Funding Proposals",
+  },
+  {
     title: "Meetings for Spring '22",
     subtitle: "January 28, 2022 by Jordan H., AESB Webmaster",
     body: "The meeting information for Spring 2022 is now available to view at the 'Meetings & Events' page. Can't wait to see you there!",

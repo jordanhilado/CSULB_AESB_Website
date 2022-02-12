@@ -3,6 +3,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import { blogInfo } from "../assets/blogInfo";
+import { color } from "../assets/color";
 
 interface MainProps {
   title: string;
@@ -32,7 +33,15 @@ export default function Main(props: MainProps) {
           <h1>{blog.title}</h1>
           <p style={{ fontStyle: "italic" }}>{blog.subtitle}</p>
           <p>{blog.body}</p>
-          <Divider style={{ backgroundColor: "#3A3B3C" }} />
+          <a
+            style={{ color: color.secondary, textDecoration: "underline" }}
+            href={blog.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {blog.linkname}
+          </a>
+          <Divider style={{ backgroundColor: "#3A3B3C", marginTop: 20 }} />
         </>
       ))}
     </Grid>
