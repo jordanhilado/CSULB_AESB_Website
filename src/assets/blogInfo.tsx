@@ -8,12 +8,12 @@ export const blogInfo = [
   },
   {
     title: "Meetings for Spring '22",
-    subtitle: "January 28, 2022 by Jordan H., AESB Webmaster",
+    subtitle: "January 28, 2022 by Jordan Hilado, AESB Webmaster",
     body: "The meeting information for Spring 2022 is now available to view at the 'Meetings & Events' page. Can't wait to see you there!",
   },
   {
     title: "Welcome to Spring 2022",
-    subtitle: "January 25, 2022 by Jordan H., AESB Webmaster",
+    subtitle: "January 25, 2022 by Jordan Hilado, AESB Webmaster",
     body: "Welcome to Spring 2022! AESB now has a new revamped website. With the new semester in full swing, we have lots of events and meetings planned out for the semester that we will announce soon! Keep your eyes peeled!",
   },
   // {
