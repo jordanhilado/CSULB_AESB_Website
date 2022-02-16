@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import { theme } from "./theme";
 import { footerInfo } from "../assets/footerInfo";
 import { clubInfo } from "../assets/clubInfo";
+import Divider from "@mui/material/Divider";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -52,9 +53,30 @@ export default function ClubsAndOrganizations() {
                       image={club.image}
                     />
                     <CardContent>
-                      <Typography gutterBottom variant="h5" component="div">
+                      <Typography
+                        gutterBottom
+                        variant="h4"
+                        fontWeight="bold"
+                        component="div"
+                      >
                         {club.name}
                       </Typography>
+                      <Typography variant="h6" color="#E4E6EB">
+                        President: {club.president}
+                      </Typography>
+                      <Typography
+                        fontStyle="italic"
+                        variant="body1"
+                        color="#E4E6EB"
+                      >
+                        {club.email}
+                      </Typography>
+                      <Divider
+                        style={{
+                          backgroundColor: "#3A3B3C",
+                          margin: 10,
+                        }}
+                      />
                       <Typography variant="body1" color="#E4E6EB">
                         {club.description}
                       </Typography>

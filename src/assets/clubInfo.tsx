@@ -27,6 +27,8 @@ import vgda from "../assets/vgda.jpeg";
 
 export const clubInfo = [
   {
+    email: "chair@csulb.acm.org",
+    president: "Miguel Echeverria",
     name: "Association for Computing Machinery",
     description: "ACM is the largest computer science ogranization on campus.",
     image: acm,
@@ -35,6 +37,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/association-for-computing-machinery-acm",
   },
   {
+    email: "chair@csulbaiaa.org",
+    president: "",
     name: "American Institute of Aeronautics and Astronautics",
     description:
       "The American Institute of Aeronautics and Astronautics (AIAA) is an Aerospace Engineering organization.",
@@ -43,6 +47,8 @@ export const clubInfo = [
     beachsync: "https://csulb.campuslabs.com/engage/organization/csulbaiaa",
   },
   {
+    email: "aiche.csulb@gmail.com",
+    president: "Samantha Mendez Villegas",
     name: "American Institute of Chemical Engineers",
     description:
       "The American Institute of Chemical Engineers, Long Beach student chapter is a chemical engineering professional development organization.",
@@ -52,6 +58,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/american-institute-of-chemical-engineers-aiche",
   },
   {
+    email: "president@csulbasce.org",
+    president: "Kyra Tan",
     name: "American Society of Civil Engineers",
     description:
       "The American Society of Civil Engineers (ASCE) is devoted to the development and continued learning of civil engineering students.",
@@ -60,6 +68,8 @@ export const clubInfo = [
     beachsync: "https://csulb.campuslabs.com/engage/organization/ascecsulb",
   },
   {
+    email: "csulbasme.pres@gmail.com",
+    president: "Daniel Hernandez",
     name: "American Society of Mechanical Engineers",
     description:
       "ASMEs mission is to serve diverse global communities by disseminating and applying engineering knowledge for improving the quality of life and communicating the excitement of engineering.",
@@ -69,6 +79,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/american-society-of-mechanical-engineers-asme",
   },
   {
+    email: "bltchair@gmail.com",
+    president: "Rohin Pathak",
     name: "Beach Launch Team",
     description:
       "Beach Launch Team aims to provide a professional environment where CSULB students can learn and get hands-on experience with rockets.",
@@ -77,6 +89,8 @@ export const clubInfo = [
     beachsync: "https://csulb.campuslabs.com/engage/organization/blt",
   },
   {
+    email: "",
+    president: "",
     name: "Embedded Applications Technology",
     description:
       "The club exists to promote student projects for the pursuit of knowledge, fun and intellectual prosperity in the realm of all things computing and programming.",
@@ -86,6 +100,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/embedded-applications-technology-group",
   },
   {
+    email: "max.bueno@student.csulb.edu",
+    president: "Max Bueno",
     name: "Engineering in Medicine & Biology Society",
     description: "",
     image: emb,
@@ -94,6 +110,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/engineering-in-medicine-and-biology-society",
   },
   {
+    email: "",
+    president: "",
     name: "Eta Kappa Nu",
     description:
       "IEEE-HKN is a unique membership organization dedicated to encouraging and recognizing excellence in the IEEE-designated fields of interest.",
@@ -103,6 +121,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/eta-kappa-nu-ee-ce-cs-honor-society",
   },
   {
+    email: "csulbieee@gmail.com",
+    president: "Gerardo Sanchez",
     name: "Institute of Electrical and Electronics Engineers",
     description:
       "We are IEEE, the Institute of Electrical and Electronics Engineers, an international club with 419,000 members in 160 countries.",
@@ -111,6 +131,8 @@ export const clubInfo = [
     beachsync: "https://csulb.campuslabs.com/engage/organization/ieeecsulb",
   },
   {
+    email: "",
+    president: "",
     name: "Institute of Transportation Engineers",
     description: "",
     image: ite,
@@ -119,6 +141,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/institute-of-transportation-engineers-ite",
   },
   {
+    email: "",
+    president: "",
     name: "Long Beach Rocketry",
     description:
       "LBR is dedicated to providing students with challenging and novel engineering experiences. Our members work together to succeed in the NASA Student Launch rocket competition.",
@@ -127,6 +151,8 @@ export const clubInfo = [
     beachsync: "",
   },
   {
+    email: "info@csulbmaes.org",
+    president: "Sebastian Bonilla",
     name: "MAES: Latinos in engineering and Science",
     description:
       "MAES Long Beach is the leading Latino engineering organization in Los Angeles known for producing exemplary professionals and for promoting STEM within the community.",
@@ -136,6 +162,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/maes-latinos-in-science-and-engineering",
   },
   {
+    email: "",
+    president: "",
     name: "Long Beach Lunabotics",
     description:
       "We are Cal State University Long Beach’s team: the Space Sharks. Our team is composed of passionate students from mechanical engineering, electrical engineering, and computer science.",
@@ -144,6 +172,8 @@ export const clubInfo = [
     beachsync: "",
   },
   {
+    email: "president.csulbnsbe@gmail.com",
+    president: "Anaya Blade",
     name: "National Society Black Engineers",
     description:
       "NSBE supports and promotes the aspirations of collegiate and pre-collegiate students and technical professionals in engineering and technology.",
@@ -153,6 +183,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/national-society-of-black-engineers-nsbe",
   },
   {
+    email: "info@csulbpts.org",
+    president: "Taylor Uyama",
     name: "Pi Tau Sigma",
     description:
       "Pi Tau Sigma is an academic honor society for mechanical engineering majors and professionals.",
@@ -162,6 +194,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/pi-tau-sigma-mechanical-engineering-honor-society",
   },
   {
+    email: "john.laskey@student.csulb.edu",
+    president: "John Laskey",
     name: "Society of Automotive Engineers",
     description:
       "The CSULB Society of Automotive Engineers offers hands on experience with design, analysis, manufacturing, testing, and racing of two vehicles every academic year.",
@@ -171,6 +205,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/society-of-automotive-engineers-sae",
   },
   {
+    email: "",
+    president: "",
     name: "Society of Asian Scientists & Engineers",
     description:
       "We are the Society of Asian Scientists & Engineers at California State University, Long Beach, committed to preparing leaders, celebrating diversity, and giving back to the Asian-American community.",
@@ -180,6 +216,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/society-of-asian-scientists-and-engineers",
   },
   {
+    email: "csulbshpe@gmail.com",
+    president: "Estefania Lopez",
     name: "Society of Hispanic Professional Engineers",
     description:
       "The Society of Hispanic Professional Engineers, California State University, Long Beach student chapter, provides for the academic, professional, and personal development of the Hispanic student community.",
@@ -189,6 +227,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/society-of-hispanic-professional-engineers-shpe",
   },
   {
+    email: "",
+    president: "",
     name: "Society of Petroleum Engineers",
     description:
       "CSULB SPE serves to connect and inform students of petroleum-related insights and seeks to provide a gateway into Oil and Gas related career paths.",
@@ -198,6 +238,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/society-of-petroleum-engineers-spe",
   },
   {
+    email: "president@csulbswe.org",
+    president: "Kayla Nicole Valencia",
     name: "Society of Women Engineers",
     description:
       " The Society of Women Engineers (SWE) is a not-for-profit educational and service organization that empowers women to succeed and advance in the field of engineering, and to be recognized for their life-changing contributions as engineers and leaders.",
@@ -207,6 +249,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/society-of-women-engineers-swe",
   },
   {
+    email: "president.csulbtbp@gmail.com",
+    president: "Christina Braga",
     name: "Tau Beta Pi",
     description:
       "Tau Beta Pi is the only international engineering honor society to recognize engineers of all disciplines.",
@@ -216,6 +260,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/tau-beta-pi-engineering-honor-society",
   },
   {
+    email: "carlos.lazzo@student.csulb.edu",
+    president: "Carlos Lazzo",
     name: "Theta Tau",
     description:
       "Theta Tau is a co-ed professional engineering fraternity built to develop in its members a strong professional interest in its members and to unite them in a strong bond of fraternal fellowship.",
@@ -224,6 +270,8 @@ export const clubInfo = [
     beachsync: "https://csulb.campuslabs.com/engage/organization/beachthetatau",
   },
   {
+    email: "csulbwic@gmail.com",
+    president: "Han Pham",
     name: "Women in Computing",
     description:
       "Women in Computing (WiC) is a student-run organization at California State University, Long Beach that is building a community to uplift and facilitate the ongoing growth of the next generation of women* in technology.",
@@ -232,6 +280,8 @@ export const clubInfo = [
     beachsync: "https://csulb.campuslabs.com/engage/organization/wic",
   },
   {
+    email: "",
+    president: "",
     name: "Chi Epsilon",
     description:
       "Chi Epsilon was organized to recognize the characteristics of the individual civil engineer deemed to be fundamental to the successful pursuit of an engineering career, and to aid in the development of those characteristics in the civil engineering student.",
@@ -241,6 +291,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/chi-epsilon-civil-engineering-honor-society",
   },
   {
+    email: "",
+    president: "",
     name: "Video Game Development Association",
     description:
       "Each semester, VGDA members have the opportunity to work in a studio-like environment where they develop a video game of “shippable” quality.",
