@@ -162,8 +162,8 @@ export const clubInfo = [
       "https://csulb.campuslabs.com/engage/organization/maes-latinos-in-science-and-engineering",
   },
   {
-    email: "",
-    president: "",
+    email: "admin@beachlunabotics.org",
+    president: "Abraham Serrano",
     name: "Long Beach Lunabotics",
     description:
       "We are Cal State University Long Beach’s team: the Space Sharks. Our team is composed of passionate students from mechanical engineering, electrical engineering, and computer science.",
