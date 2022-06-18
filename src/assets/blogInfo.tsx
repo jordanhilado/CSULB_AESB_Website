@@ -1,10 +1,17 @@
 export const blogInfo = [
   {
+    title: "Open 2022-2023 AESB Positions",
+    subtitle: "June 18, 2022 by Antonio Arreguin, AESB President",
+    body: "AESB Officer Board applications are now open. Please see the below link for complete information.",
+    link: "https://drive.google.com/file/d/16EUwQloACxUKCCCCf_ZanDNgwMhLvWL5/view?usp=sharing",
+    linkname: "AESB 2022-2023 Applications",
+  },
+  {
     title: "BeachHacks 6.0 Applications Now Open",
     subtitle: "March 23, 2022 by Jordan H.",
     body: "Association for Computing Machinery and the BeachHacks committees are proud to present BeachHacks 6.0: Success at the Beach! BeachHacks 6.0 will take place from April 9th – April 10th 2022. Apply at the link below!",
     link: "https://beachhacks.com/",
-    linkname: "BeachHacks 6.0 Application"
+    linkname: "BeachHacks 6.0 Application",
   },
   {
     title: "Funding for COE Student Organizations",
