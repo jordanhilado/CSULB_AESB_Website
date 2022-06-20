@@ -3,7 +3,7 @@ export const blogInfo = [
     title: "Open 2022-2023 AESB Positions",
     subtitle: "June 18, 2022 by Antonio Arreguin, AESB President",
     body: "AESB Officer Board applications are now open. Please see the below link for complete information.",
-    link: "https://drive.google.com/file/d/16EUwQloACxUKCCCCf_ZanDNgwMhLvWL5/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1cWTIsxONkIzPLYFOUFevUkg5GnkeuKWP/view?usp=sharing",
     linkname: "AESB 2022-2023 Applications",
   },
   {
