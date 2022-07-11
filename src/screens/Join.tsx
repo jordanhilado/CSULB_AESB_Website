@@ -7,6 +7,7 @@ import { sections } from "./Sections";
 import Footer from "./Footer";
 import { theme } from "./theme";
 import { footerInfo } from "../assets/footerInfo";
+import { color } from "../assets/color";
 
 export default function Join() {
   return (
@@ -22,6 +23,14 @@ export default function Join() {
             networking skills while creating lasting friendships from home.
             Apply now!
           </p>
+          <a
+            style={{ color: color.secondary, textDecoration: "underline" }}
+            href="https://drive.google.com/file/d/1zKjGtioHpd2pGJnF-krtGlcCZPESqEEj/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            2022-2023 Applications
+          </a>
         </main>
       </Container>
       <Footer description={footerInfo} />
